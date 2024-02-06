@@ -41,3 +41,8 @@ app.get("/api/jokes",(req,res)=>{
 app.listen(port,()=>{
     console.log("app is listening on port "+port);
 })
+
+
+//ways to solve cors error:
+// use proxy in frontend
+// use cors package in backend and whitelist the ip 
